@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+* {
+  color: #8B8B8B;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+#card {
+  background: linear-gradient(60deg, rgba(20, 20, 20, 1) 0%, rgba(50, 32, 74, 1) 100%);
+  border: solid 1px #8356C8;
+  box-shadow: 0px 0px 1200px #32204a;
+}
+
+
+
+#dribble:hover {
+  border: 1px solid #C45E85;
+  border-radius: 10px;
+  background-color: #300F1C;
+  cursor: pointer;
+}
+
+#behance:hover {
+  border: 1px solid #2A68D4;
+  border-radius: 10px;
+  background-color: #0C1930;
+  cursor: pointer;
+}
+
+#twitch:hover {
+  border: 1px solid #894FE2;
+  border-radius: 10px;
+  background-color: #1E0F35;
+  cursor: pointer;
+}
+
+#linkedIn:hover {
+  border: 1px solid #0D66BA;
+  border-radius: 10px;
+  background-color: #0A2034;
+  cursor: pointer;
+  color: white;
+}
+
+#icon:hover {
+  border: 1px solid #EF5E0C;
+  border-radius: 10px;
+  background-color: #2C1B13;
+  cursor: pointer;
+}
+
+#steam:hover {
+  border: 1px solid #FDFCFF;
+  border-radius: 10px;
+  background-color: #3E3E3E;
+  cursor: pointer;
+}
+
+#origin:hover {
+  border: 1px solid #EA7034;
+  border-radius: 10px;
+  background-color: #271309;
+  cursor: pointer;
+}
+
+#xbox:hover {
+  border: 1px solid #0E7B13;
+  border-radius: 10px;
+  background-color: #061107;
+  cursor: pointer;
+}
+
+#twitter:hover {
+  border: 1px solid #1CA1EE;
+  border-radius: 10px;
+  background-color: #0E202B;
+  cursor: pointer;
+}
+
+#discord:hover {
+  border: 1px solid #5D65DC;
+  border-radius: 10px;
+  background-color: #14152D;
+  cursor: pointer;
+}
